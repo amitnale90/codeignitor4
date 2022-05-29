@@ -1,0 +1,61 @@
+CRITICAL - 2022-05-28 00:08:48 --> max-length is not a valid rule.
+#0 D:\xampp\htdocs\trial\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max-length')
+#1 D:\xampp\htdocs\trial\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('phone', 'phone', '9595959989', Array, Array)
+#2 D:\xampp\htdocs\trial\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\xampp\htdocs\trial\app\Controllers\StudentController.php(31): CodeIgniter\Controller->validate(Array)
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(832): App\Controllers\StudentController->add_record()
+#5 D:\xampp\htdocs\trial\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#6 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\trial\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 00:30:16 --> Mobile Number is required is not a valid rule.
+#0 D:\xampp\htdocs\trial\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Mobile Number i...')
+#1 D:\xampp\htdocs\trial\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('mobile', 'mobile', NULL, Array, Array)
+#2 D:\xampp\htdocs\trial\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\xampp\htdocs\trial\app\Controllers\StudentController.php(57): CodeIgniter\Controller->validate(Array)
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(832): App\Controllers\StudentController->add_record()
+#5 D:\xampp\htdocs\trial\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#6 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\trial\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 00:40:56 --> max-length is not a valid rule.
+#0 D:\xampp\htdocs\trial\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max-length')
+#1 D:\xampp\htdocs\trial\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('phone', 'phone', '+919970894293', Array, Array)
+#2 D:\xampp\htdocs\trial\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\xampp\htdocs\trial\app\Controllers\StudentController.php(31): CodeIgniter\Controller->validate(Array)
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(832): App\Controllers\StudentController->add_record()
+#5 D:\xampp\htdocs\trial\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#6 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\trial\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 00:43:11 --> max-length is not a valid rule.
+#0 D:\xampp\htdocs\trial\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max-length')
+#1 D:\xampp\htdocs\trial\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('phone', 'phone', '+919970894293', Array, Array)
+#2 D:\xampp\htdocs\trial\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\xampp\htdocs\trial\app\Controllers\StudentController.php(31): CodeIgniter\Controller->validate(Array)
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(832): App\Controllers\StudentController->add_record()
+#5 D:\xampp\htdocs\trial\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#6 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\trial\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 02:22:55 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\trial\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\trial\system\Common.php(1089): CodeIgniter\View\View->render('student/view_st...', Array, true)
+#2 D:\xampp\htdocs\trial\app\Controllers\StudentController.php(17): view('student/view_st...', Array)
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(832): App\Controllers\StudentController->index()
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#5 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\trial\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-28 02:29:56 --> Column 'status' cannot be null
+ERROR - 2022-05-28 02:34:03 --> Column 'status' cannot be null
+CRITICAL - 2022-05-28 02:56:57 --> unlink(public/upload1653714904_3de48c201e80c6b6ccb4.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\trial\app\Controllers\StudentController.php(62): unlink('public/upload16...')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(832): App\Controllers\StudentController->delete('6')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-28 03:58:56 --> Column 'status' cannot be null
+ERROR - 2022-05-28 04:05:16 --> Column 'status' cannot be null

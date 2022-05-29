@@ -1,0 +1,88 @@
+CRITICAL - 2022-05-25 01:27:50 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 01:59:05 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 01:59:45 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:00:01 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:00:54 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:02:31 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:02:35 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:02:36 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:03:00 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:03:01 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 02:03:12 --> Class 'Codeignitor\Controller' not found
+#0 D:\xampp\htdocs\trial\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\trial\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Welcome')
+#2 D:\xampp\htdocs\trial\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Welcome')
+#3 D:\xampp\htdocs\trial\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\trial\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\trial\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
