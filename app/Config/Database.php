@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'codeignitor4_crud',
+        'hostname' => 'db4free.net:3306',
+        'username' => 'crudroot',
+        'password' => 'testing1',
+        'database' => 'codeignitor4',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
