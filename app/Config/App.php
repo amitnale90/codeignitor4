@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/trial/';
+    public $baseURL = 'https://codeigniter4-crud.herokuapp.com/';
 
     /**
      * --------------------------------------------------------------------------
