@@ -26,7 +26,7 @@ class StudentController extends BaseController
             'name'=>'required',
             'email'=>'required|is_unique[student.email,id]',
             'phone'=>'required|is_unique[student.phone,id]|max_length[10]|numeric|min_length[10]',
-            'image'=> 'uploaded[image]|mime_in[image, image/png, image/jpg, image/jpeg]',
+            'image'=> 'uploaded[image]|ext_in[image,png,jpg,gif]',
         ];
         
         if ($this->validate($rules))
