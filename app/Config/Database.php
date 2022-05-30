@@ -30,7 +30,7 @@ class Database extends Config
      *
      * @var array
      */
-    public $default = [
+  public $default = [
         'DSN'      => '',
         'hostname' => 'db4free.net:3306',
         'username' => 'crudroot',
